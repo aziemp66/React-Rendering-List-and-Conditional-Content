@@ -19,8 +19,8 @@ const Expenses = (props) => {
             {props.data.map((expense) => {
                 return (
                     <ExpenseItem
-                        date={expense.date}
                         title={expense.title}
+                        date={expense.date}
                         amount={expense.amount}
                     />
                 );
