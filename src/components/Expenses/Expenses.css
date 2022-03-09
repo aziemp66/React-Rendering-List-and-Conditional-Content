@@ -5,3 +5,8 @@
     width: 50rem;
     max-width: 95%;
 }
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+}

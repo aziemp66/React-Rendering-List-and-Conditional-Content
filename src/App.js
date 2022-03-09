@@ -33,12 +33,6 @@ const DUMMY_EXPENSES = [
         amount: 450,
         date: new Date(2021, 5, 12),
     },
-    {
-        id: "e6",
-        title: "New Monitor",
-        amount: 800,
-        date: new Date(2022, 1, 5),
-    },
 ];
 
 function App() {
@@ -53,7 +47,7 @@ function App() {
     return (
         <div>
             <NewExpense onAddExpense={addExpenseHandler} />
-            <Expenses data={expenses} />
+            <Expenses expenses={expenses} />
         </div>
     );
 }
